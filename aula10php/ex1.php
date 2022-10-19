@@ -23,3 +23,21 @@
     
     
     ?>
+    
+    ($numero as $n)
+    $soma = $soma + $n
+    //$soma = $soma + $n
+    //$contador = $ contador + 1;
+    $contador++; //**ex2 */
+    $soma = 0;
+
+    $quantidades = 0;
+$contador = 0;
+
+foreach($numero as $indice){
+    $soma =+ $indice;
+    //$soma = $soma + $indice;
+    //$contador = $ contador + 1;
+    $contador++;
+}
+?>
